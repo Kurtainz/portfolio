@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Maybe Something?</title>
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+	<script src="https://use.fontawesome.com/12b34b3018.js"></script>
+	<link rel="stylesheet" type="text/css" href="CSS/animate.css">
+	<link rel="stylesheet" type="text/css" href="CSS/draftStyles.css">
+</head>
+<body>
+
+<!-- Top Navbar, always fixed to top -->
+<nav class="navbar navbar-inverse navbar-fixed-top" id="topNav">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a  href="#about"><span class="navBorder">About Me</span></a></li>
+        <li><a  href="#projects"><span class="navBorder">Projects</span></a></li>
+        <li><a  href="#contact"><span class="navBorder">Contact Me</span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="top">
+	<!-- Background image and down button -->
+	<div class="row">
+		<div class="placeholder">
+			<div class="background-image">
+				<div class="title">
+					<h1 class="titleName">Kurt Corbett</h1>
+					<h1 class="titleHead">Front End Developer</h1>
+				</div>
+				<div class="downButton">
+					<a href="#about">
+						<i class="fa fa-angle-double-down fa-3x"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="upButton">
+		<a href="#top">
+			<i class="fa fa-chevron-up fa-3x"></i>
+		</a>
+	</div>
+
+	<!-- About me section -->
+	<section class="row" id="about">
+	<div class="animated">
+		<h2>Welcome To My Page</h2>
+		<p>Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'? </p>
+			<!-- <p>My name is Kurt Corbett and I am a front-end web developer based just outside London in Essex. I specialise in HTML5 CSS3 JavaScript and JQuery. </p> -->
+	</div>
+	</section>
+
+	<!-- Projects section -->
+	<section class="row" id="projects">
+		<h2 class="projectTitle">Projects</h2>
+		<article class="col-md-4"></article>
+		<article class="col-md-4"></article>
+		<article class="col-md-4"></article>
+	</section>
+
+	<!-- Contact section (bottom of page) -->
+	<section class="row" id="contact">
+		<h2>Contact Me</h2>
+		<p>Thank you for visiting my portfolio page. Please do not hesitate to contact me!</p>
+		<div class="contactIcons">
+			<article class="col-sm-6 col-md-4">
+				<i class="fa fa-mobile contactIcon" aria-hidden="true"></i>
+				<p>+44 (0) 7877178217</p>
+			</article>
+			<article class="col-sm-6 col-md-4">
+				<i class="fa fa-envelope contactIcon" aria-hidden="true"></i>
+				<p>kurtscorbett@gmail.com</p>
+			</article>
+			<article class="col-sm-6 col-md-4">
+				<i class="fa fa-linkedin-square contactIcon" aria-hidden="true"></i>
+			</article>
+		</div>
+
+		<form>
+		  <div class="form-group">
+		    <label for="name">Name</label>
+			<input type="text" name="name" id="name" placeholder="Name" class="form-control">
+		  </div>
+		  <div class="form-group">
+		    <label for="number">Phone Number</label>
+			<input type="tel" id="number" name="number" max="15" class="form-control" placeholder="Phone number">
+		  </div>
+		  <div class="form-group">
+		    <label for="email">Email</label>
+			<input type="email" name="email" id="email" class="form-control" placeholder="Email">
+		  </div>
+		  <div class="form-group">
+		    <label for="message">Message</label>
+			<textarea name="message" id="message" class="form-control" placeholder="Your message"></textarea>
+		  </div>
+		  <button type="submit" class="btn btn-default">Submit</button>
+		</form>
+		
+	</section>
+
+</div>
+
+
+<script src="scripts/jquery-3.1.1.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/draftScript.js"></script>
+</body>
+</html>
