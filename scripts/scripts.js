@@ -59,19 +59,6 @@ function showArrow() {
 	}
 }
 
-// Code for Google Maps section
-function initMap() {
-  var home = {lat: 51.904962, lng: 0.193139};
-  var map = new google.maps.Map(document.getElementById('map'), { 
-    center: home,
-    zoom: 9
-  });
-  var marker = new google.maps.Marker({
-          position: home,
-          map: map
-        });
-}
-
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 particlesJS.load('particles-js', 'scripts/particles.json', function() {
 });

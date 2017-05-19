@@ -18,11 +18,21 @@ nav {
 
 .navbar {
 	margin-bottom: 0;
-	background-image: linear-gradient(to bottom, #837e7e 0%, #000000 100%);
 }
 
-li a {
-	font-size: 1.8em;
+.navbar-inverse {
+	background-color: rgb(34, 34, 34);
+}
+
+.brandImage {
+	height: 60px;
+	padding: 5px;
+}
+
+.navbar-nav>li>a {
+	font-size: 1.3em;
+	height: 60px;
+	padding: 20px;
 }
 
 h2 {
@@ -300,10 +310,14 @@ h4 {
 
 /*Implements animation delay*/
 .staggeredContact:nth-of-type(2) {
-	animation-delay: 0.3s;
+	animation-delay: 0.2s;
 }
 
 .staggeredContact:nth-of-type(3) {
+	animation-delay: 0.4s;
+}
+
+.staggeredContact:nth-of-type(4) {
 	animation-delay: 0.6s;
 }
 
@@ -313,29 +327,19 @@ h4 {
 	margin-bottom: 30px;
 }
 
-.linkedIn {
+.contactLink {
 	color: inherit;
 }
 
-.linkedIn:hover {
+.contactLink:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+.contactLink:hover {
 	text-decoration: none;
 	color: #4f4b4b;
 }
-
-#gMap {
-	padding: 0;
-}
-
-.map {
-	padding: 0;
-}
-
-#map {
-	height: 500px;
-	width: 100%;
-	background-color: grey;
-}
-
 
 /*Footer*/
 .footerText {
@@ -433,9 +437,6 @@ h4 {
 	
 	.backgroundImage {
 	    background-attachment: fixed;
-	}
-	li a:hover {
-		transform: scale(1.1);
 	}
 	.navBorder:before {
 		display: block;
