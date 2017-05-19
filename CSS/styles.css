@@ -1,0 +1,507 @@
+body {
+	font-family: 'Play', sans-serif;
+	color: #a2a2a2;
+}
+
+::selection {
+	background-color: #cecdcd;
+}
+
+::-moz-selection {
+	background-color: #cecdcd;
+}
+
+nav {
+	text-transform: uppercase;
+	outline: 0;
+}
+
+.navbar {
+	margin-bottom: 0;
+	background-image: linear-gradient(to bottom, #837e7e 0%, #000000 100%);
+}
+
+li a {
+	font-size: 1.8em;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2.5em;
+	letter-spacing: 7px;
+}
+
+p {
+	font-size: 17px;
+}
+
+.placeholder {
+	height: 100vh;
+}
+
+.backgroundImage {
+	background-image: url(../media/stars_1280.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 75%;
+	text-transform: uppercase;
+	text-shadow: 5px 3px 4px #786C6C; 
+}
+
+.titleName {
+	font-size: 3.5em;
+	letter-spacing: 8px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+}
+
+.titleHead {
+	color: rgba(255, 255, 255, 0.75);
+	font-size: 2em;
+	letter-spacing: 5px;
+}
+
+.downButton a {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgb(81, 79, 79);
+}
+
+.downButton i {
+	color: #c8c8d5;
+	animation: fadeInAndOut 3s infinite;
+}
+
+i {
+	color: #a2a2a2;
+}
+
+.upButton {
+	display: none;
+}
+
+.showButton {
+	display: block;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	transform: translate(-50%, -50%);
+}
+
+.animated {
+	visibility: hidden;
+}
+
+section {
+	padding: 70px 0 150px;
+}
+
+.sectionDivide {
+	height: 2px;
+    width: 60px;
+    background-color: #c8c8d5;
+    margin: 20px auto 70px;
+}
+
+.marginBottom {
+	margin-bottom: 60px;
+}
+
+/*About section*/
+#about {
+	text-align: center;
+	padding-bottom: 30px;
+	background-color: #141313;
+	color: #a2a2a2;
+}
+
+.aboutInner {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.aboutBlock {
+	margin-bottom: 80px;
+}
+
+.aboutText {
+	font-size: 17px;
+}
+
+.portraitBlock {
+	margin-bottom: 60px;
+}
+
+.portrait {
+	margin: 50px auto;
+	height: 400px;
+	border: 20px solid #fff;
+	border-bottom: 65px solid #fff;
+}
+
+.portraitText {
+	font-family: 'Rock Salt', cursive;
+	position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+    right: 20px;
+}
+
+
+/*Skills section*/
+#skills {
+	background-color: #1d1d1d;
+	color: #a2a2a2;
+}
+
+.skillInner {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.skillBlock {
+	height: 100%;
+}
+
+.skill {
+	padding: 30px;
+	background-color: #212121;
+	border-left: 2px solid #292929;
+	height: 270px;
+}
+
+.skillIcon.fa {
+	font-size: 3em;
+}
+
+/*Implements animation delay*/
+.staggeredSkill:nth-of-type(2) {
+	animation-delay: 0.3s;
+}
+
+.staggeredSkill:nth-of-type(3) {
+	animation-delay: 0.6s
+}
+
+
+/*Implement animation delays for technical skills*/
+.staggeredTech:nth-of-type(2) {
+	animation-delay: 0.2s;
+}
+
+.staggeredTech:nth-of-type(3) {
+	animation-delay: 0.4s;
+}
+
+.staggeredTech:nth-of-type(4) {
+	animation-delay: 0.6s;
+}
+
+.staggeredTech:nth-of-type(5) {
+	animation-delay: 0.8s;
+}
+
+.techBox {
+	margin-bottom: 40px;
+}
+
+.techHeader {
+	margin-top: 80px;
+}
+
+.techSkill {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.techIcon {
+	font-size: 6em;
+	vertical-align: top;
+	display: block;
+	text-align: center;
+}
+
+.techTitle {
+	text-align: center;
+}
+
+
+/*Projects section*/
+#projects {
+	background-color: #141313;
+}
+
+.project {
+	padding-bottom: 30px;
+}
+
+/*Implements animation display*/
+.staggeredProject:nth-of-type(2) {
+	animation-delay: 0.3s;
+}
+
+.staggeredProject:nth-of-type(3) {
+	animation-delay: 0.6s;
+}
+
+.projectBlock {
+	margin: auto;
+	width: 90%;
+}
+
+.projectContainer {
+	width: 80%;
+	margin: auto;
+}
+
+.projectImage {
+	position: relative;
+}
+
+.projectImage:hover {
+	cursor: pointer;
+}
+
+h4 {
+	font-size: 2em;
+}
+
+.imageOverlay {
+	display: none;
+}
+
+
+
+/*Contact section*/
+#contact {
+	background-color: #1d1d1d;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.contactIcons {
+	overflow: hidden;
+	margin: 50px 0;
+}
+
+/*Implements animation delay*/
+.staggeredContact:nth-of-type(2) {
+	animation-delay: 0.3s;
+}
+
+.staggeredContact:nth-of-type(3) {
+	animation-delay: 0.6s;
+}
+
+.contactIcon.fa {
+	font-size: 20vw;
+	display: block;
+	margin-bottom: 30px;
+}
+
+.linkedIn {
+	color: inherit;
+}
+
+.linkedIn:hover {
+	text-decoration: none;
+	color: #4f4b4b;
+}
+
+#gMap {
+	padding: 0;
+}
+
+.map {
+	padding: 0;
+}
+
+#map {
+	height: 500px;
+	width: 100%;
+	background-color: grey;
+}
+
+
+/*Footer*/
+.footerText {
+	text-align: center;
+	font-size: 24px;
+}
+
+
+/*Modals*/
+.modal-content {
+	background-color: #1d1d1d;
+}
+
+.modalClose {
+	display: inline-block;
+	 border:1px solid #CCCCCC;
+	 color: #FFFFFF;
+	 border-radius: 3px 3px 3px 3px;
+	 -webkit-border-radius: 3px 3px 3px 3px;
+	 -moz-border-radius: 3px 3px 3px 3px;
+	 width: auto;
+	 height: auto;
+	 font-size: 16px;
+	 padding: 10px 40px;
+	 text-shadow: 0 1px 0 #FFFFFF;
+	 background-image: linear-gradient(to top, #000000, #6A6A6B);
+	 background-color: #000000;
+}
+
+.modalVisit {
+ display: inline-block;
+ border:1px solid #1CFC2B;
+ color: #343436;
+ border-radius: 3px 3px 3px 3px;
+ -webkit-border-radius: 3px 3px 3px 3px;
+ -moz-border-radius: 3px 3px 3px 3px;
+ width: auto;
+ height: auto;
+ font-size: 17px;
+ padding: 9px 40px;
+ text-shadow: 0 1px 0 #FFFFFF;
+ background-image: linear-gradient(to top, #5DFC9D, #14B51F);
+ background-color: #1CFC2B;
+}
+
+
+@media screen and (min-width: 768px) {
+	
+	.backgroundImage {
+		background-image: url(../media/stars.jpeg);
+	}
+	
+	.titleName {
+		font-size: 5em;
+	}
+
+	.titleHead {
+		font-size: 2em;
+	}
+
+	.marginBottom {
+		margin-bottom: 0;
+	}
+
+	.techBox {
+		margin-bottom: 0;
+	}
+
+	.contactIcon.fa {
+		font-size: 9vw;
+	}
+
+	.portrait {
+		margin: auto;
+	}
+
+	.marginTop {
+		margin-top: 60px;
+	}
+
+	.imageOverlay:hover {
+		opacity: 0.8;
+	}
+
+	.overlayText {
+		width: 80%;
+		margin: auto;
+		font-size: 1.5em;
+	}
+	
+}
+
+
+@media screen and (min-width: 992px) {
+	
+	.backgroundImage {
+	    background-attachment: fixed;
+	}
+	li a:hover {
+		transform: scale(1.1);
+	}
+	.navBorder:before {
+		display: block;
+		position: absolute;
+		left: 0;
+		bottom: -2px;
+		width: 0;
+		height: 2px;
+		background-color: #9d9d9d;
+		content: "";
+		transition: width 0.4s;
+	}
+
+	.navBorder {
+		position: relative;
+	}
+
+	.navBorder:hover:before {
+		width: 100%;
+	}
+	.titleName {
+		font-size: 6em;
+	}
+	
+	.titleHead {
+		font-size: 3.5em;
+	}
+	
+	.marginTop {
+		margin-top: 0;
+	}
+
+	.imageOverlay {
+		display: block;
+		opacity: 0;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		background-color: #000;
+		transition: 0.3s; 
+	}
+
+	.contactIcon.fa {
+		font-size: 7vw;
+	}
+
+}
+
+.animateUnderline:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	width: 0;
+	height: 2px;
+	background-color: #9d9d9d;
+	transition: width 0.4s;
+}
+
+@keyframes fadeInAndOut {
+	0% {opacity: 1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
