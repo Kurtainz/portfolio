@@ -11,6 +11,10 @@ body {
 	background-color: #cecdcd;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 nav {
 	text-transform: uppercase;
 	outline: 0;
@@ -109,6 +113,7 @@ i {
 	bottom: 0;
 	right: 0;
 	transform: translate(-50%, -50%);
+	z-index: 1;
 }
 
 .animated {
@@ -278,12 +283,17 @@ section {
 	margin: auto;
 }
 
-.projectImage {
+.projectColumn {
 	position: relative;
 }
 
-.projectImage:hover {
+.projectColumn:hover {
 	cursor: pointer;
+}
+
+.projectImage {
+	height: 250px;
+	width: 100%;
 }
 
 h4 {
