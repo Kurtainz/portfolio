@@ -79,7 +79,6 @@
 				<p>Hello! My name is Kurt Corbett, I am a front end web developer based in Essex, near London. I have always been interested in computers, ever since my father brought home a 16 bit computer. Computers have been a part of my life from a very young age and I have been intrigued to not only see, but also to experience first hand the progress of computers and how they have become ubiquitous in almost all areas of our lives.</p>
 				<p>Having worked in customer service for some time, I felt that I needed to seek a new challenge in life. In my own time I engaged in a few different online courses in IT until I moved on to web development. I instantly found web development to be interesting and exciting and this became my main focus.</p>
 				<p>Currently I am studying on a self-funded course in front end web development with a training and recruitment company called Just IT. This allows me to move my understanding to the next level and to turn my passion into a reality. </p>
-				<p>I believe my greatest strengths are in my relentless thirst for knowledge and progression. Entering into the world of IT means there are countless ways to improve on your own ability and I find that I am learning new things everyday. My work experience has also taught me a lot. Although it is not necessarily relevant to this field, working in customer service has been an invaluable experience as it has taught me many important life lessons such as professionalism and good communication skills. </p>
 			</div>
 		</div>
 		
@@ -157,8 +156,8 @@
 
 				<div class="col-md-2 col-sm-4 techBox animated staggeredTech">
 					<div class="techSkill">
-						<i class="icon-jquery techIcon"></i>
-						<h3 class="techTitle">JQuery</h3>
+						<i class="icon-reactjs techIcon"></i>
+						<h3 class="techTitle">React</h3>
 					</div>
 				</div>
 
@@ -176,7 +175,7 @@
 
 		<div class="projectBlock">
 
-			<article class="col-md-4 col-sm-6 marginBottom animated" data-toggle="modal" data-target="#project1Modal">
+			<article class="col-md-3 col-sm-6 marginBottom animated" data-toggle="modal" data-target="#project1Modal">
 				<div class="projectColumn">
 					<img src="media/chartScreen.png" alt="screenshot of website" class="img-responsive projectImage">
 					<div class="imageOverlay">
@@ -188,7 +187,7 @@
 				<p>JavaScript, AJAX, APIs</p>
 			</article>
 
-			<article class="col-md-4 col-sm-6 marginBottom animated staggeredProject" data-toggle="modal" data-target="#project2Modal">
+			<article class="col-md-3 col-sm-6 marginBottom animated staggeredProject" data-toggle="modal" data-target="#project2Modal">
 				<div class="projectColumn">
 					<img src="media/ufo_screen.png" alt="Screenshot of game" class="img-responsive projectImage">
 					<div class="imageOverlay">
@@ -200,7 +199,7 @@
 				<p>JavsScript, Phaser.js, Node.js, Heroku</p>
 			</article>
 
-			<article class="col-md-4 col-sm-6 marginTop animated staggeredProject" data-toggle="modal" data-target="#project3Modal">
+			<article class="col-md-3 col-sm-6 marginTop animated staggeredProject" data-toggle="modal" data-target="#project3Modal">
 				<div class="projectColumn">
 					<img src="media/wiki_screen.png" alt="Screenshot of web app" class="img-responsive projectImage">
 					<div class="imageOverlay">
@@ -210,6 +209,18 @@
 				</div>
 				<h4>React Wikipedia Viewer</h4>
 				<p>React, ES6, JQuery</p>
+			</article>
+
+			<article class="col-md-3 col-sm-6 marginTop animated staggeredProject" data-toggle="modal" data-target="#project4Modal">
+				<div class="projectColumn">
+					<img src="media/game-of-life.png" alt="Screenshot of web app" class="img-responsive projectImage">
+					<div class="imageOverlay">
+						<h4>Game Of Life</h4>
+						<p class="overlayText">Click for more information</p>
+					</div>
+				</div>
+				<h4>Game Of Life</h4>
+				<p>React, ES6</p>
 			</article>
 
 		</div>
@@ -270,6 +281,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default modalClose" data-dismiss="modal">Close</button>
+        <a target="_blank" href="https://github.com/Kurtainz/chart"><button type="button" class="btn btn-primary modalGit">View On Github</button></a>
         <a target="_blank" href="http://chart.kurtcorbett.co.uk"><button type="button" class="btn btn-primary modalVisit">Visit Site</button></a>
       </div>
     </div><!-- /.modal-content -->
@@ -296,6 +308,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default modalClose" data-dismiss="modal">Close</button>
+        <a target="_blank" href="https://github.com/Kurtainz/UFOFruitSalad"><button type="button" class="btn btn-primary modalGit">View On Github</button></a>
         <a target="_blank" href="http://ufofs.herokuapp.com"><button type="button" class="btn btn-primary modalVisit">Visit Site</button></a>
       </div>
     </div><!-- /.modal-content -->
@@ -321,7 +334,32 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default modalClose" data-dismiss="modal">Close</button>
+        <a target="_blank" href="https://github.com/Kurtainz/reactWikiApp"><button type="button" class="btn btn-primary modalGit">View On Github</button></a>
         <a target="_blank" href="http://wiki.kurtcorbett.co.uk"><button type="button" class="btn btn-primary modalVisit">Visit Site</button></a>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- Modal for project #4 -->
+<div id="project4Modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Project #4</h4>
+      </div>
+      <div class="modal-body">
+        <p>Seeking to improve on my React skills, I wanted to take on a project that would really test my skills. To do this, I decided to build my own version of mathematician John Horton Conway's Game Of life. Designed in 1970, the Game Of Life simulates the life cycles of cells in a two-dimensional grid. This presented various unique challenges, such as how to implement the rules that dictate cell's life cycles, and creating a grid that would wrap both horizontally and vertically. For more information on the Game Of Life, <a id="p4Link" target="_blank" href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">click here</a>.</p>
+        <ul>
+        	<li>React</li>
+	        <li>JavaScript ES6</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default modalClose" data-dismiss="modal">Close</button>
+        <a target="_blank" href="https://github.com/Kurtainz/game-of-life"><button type="button" class="btn btn-primary modalGit">View On Github</button></a>
+        <a target="_blank" href="http://gameoflife.kurtcorbett.co.uk"><button type="button" class="btn btn-primary modalVisit">Visit Site</button></a>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
