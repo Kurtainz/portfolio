@@ -126,7 +126,7 @@
 		<div class="skillInner">
 			<div class="row">
 			
-				<div class="col-md-2 col-sm-4 techBox animated">
+				<div class="col-md-2 col-sm-4 col-md-offset-1 techBox animated">
 					<div class="techSkill">
 						<i class="icon-html5 techIcon"></i>
 						<h3 class="techTitle">HTML5</h3>
@@ -161,13 +161,6 @@
 					</div>
 				</div>
 
-				<div class="col-md-2 col-sm-4 techBox animated staggeredTech">
-					<div class="techSkill">
-						<i class="icon-php techIcon"></i>
-						<h3 class="techTitle">PHP</h3>
-					</div>
-				</div>
-
 			</div>
 		</div>
 		
@@ -182,7 +175,7 @@
 
 		<div class="projectBlock">
 
-			<article class="col-md-4 col-sm-6 marginBottom animated" data-toggle="modal" data-target="#project1Modal">
+			<article class="col-md-3 col-sm-6 marginBottom animated" data-toggle="modal" data-target="#project1Modal">
 				<div class="projectColumn">
 					<img src="media/chartScreen.png" alt="screenshot of website" class="img-responsive projectImage">
 					<div class="imageOverlay">
@@ -194,7 +187,7 @@
 				<p>JavaScript, AJAX, APIs</p>
 			</article>
 
-			<article class="col-md-4 col-sm-6 marginBottom animated staggeredProject" data-toggle="modal" data-target="#project2Modal">
+			<article class="col-md-3 col-sm-6 marginBottom animated staggeredProject" data-toggle="modal" data-target="#project2Modal">
 				<div class="projectColumn">
 					<img src="media/ufo_screen.png" alt="Screenshot of game" class="img-responsive projectImage">
 					<div class="imageOverlay">
@@ -206,7 +199,7 @@
 				<p>JavsScript, Phaser.js, Node.js, Heroku</p>
 			</article>
 
-			<article class="col-md-4 col-sm-6 marginBottom marginTop animated staggeredProject" data-toggle="modal" data-target="#project3Modal">
+			<article class="col-md-3 col-sm-6 marginTop animated staggeredProject" data-toggle="modal" data-target="#project3Modal">
 				<div class="projectColumn">
 					<img src="media/wiki_screen.png" alt="Screenshot of web app" class="img-responsive projectImage">
 					<div class="imageOverlay">
@@ -218,7 +211,7 @@
 				<p>React, ES6, JQuery</p>
 			</article>
 
-			<article class="col-md-4 col-sm-6 marginBottom marginTop animated staggeredProject" data-toggle="modal" data-target="#project4Modal">
+			<article class="col-md-3 col-sm-6 marginTop animated staggeredProject" data-toggle="modal" data-target="#project4Modal">
 				<div class="projectColumn">
 					<img src="media/game-of-life.png" alt="Screenshot of web app" class="img-responsive projectImage">
 					<div class="imageOverlay">
@@ -228,18 +221,6 @@
 				</div>
 				<h4>Game Of Life</h4>
 				<p>React, ES6</p>
-			</article>
-
-			<article class="col-md-4 col-sm-6 marginTop animated staggeredProject" data-toggle="modal" data-target="#project5Modal">
-				<div class="projectColumn">
-					<img src="media/btc.png" alt="Screenshot of web app" class="img-responsive projectImage">
-					<div class="imageOverlay">
-						<h4>Book Trading Club</h4>
-						<p class="overlayText">Click for more information</p>
-					</div>
-				</div>
-				<h4>Book Trading Club</h4>
-				<p>PHP, JavaScript, MySQL</p>
 			</article>
 
 		</div>
@@ -313,7 +294,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">JavaScript Game</h4>
+        <h4 class="modal-title">Project #2</h4>
       </div>
       <div class="modal-body">
         <p>Seeking to continue my learning, I decided to take on the challenge of building a game. To do this I used a JavaScript library called Phaser. This not only allowed me to continue improving my JavaScript skills, but also to take the time to learn the ins and outs of a fully featured JavaScript library. I also wrote the back end code for this app and I used Node.js and Express for this, and hosted it on Heroku. This allowed me to apply a persistant scoreboard for the game which would be the same for everyone, regardless of which computer they accessed the site on. </p>
@@ -340,7 +321,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">React Wikipedia Viewer</h4>
+        <h4 class="modal-title">Project #3</h4>
       </div>
       <div class="modal-body">
         <p>Having improved my JavaScript and general programming skills with the previous two projects, I decided to take on a new challenge. For this project I built a Wikipedia viewer with React. This was an interesting challenge because with React I had to learn a whole new way of building web apps. It also allowed me to use some of the new features and syntax of ES6, such as arrow functions and classes.  </p>
@@ -366,7 +347,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Game Of Life</h4>
+        <h4 class="modal-title">Project #4</h4>
       </div>
       <div class="modal-body">
         <p>Seeking to improve on my React skills, I wanted to take on a project that would really test my skills. To do this, I decided to build my own version of mathematician John Horton Conway's Game Of life. Designed in 1970, the Game Of Life simulates the life cycles of cells in a two-dimensional grid. This presented various unique challenges, such as how to implement the rules that dictate cell's life cycles, and creating a grid that would wrap both horizontally and vertically. For more information on the Game Of Life, <a id="p4Link" target="_blank" href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">click here</a>.</p>
@@ -379,35 +360,6 @@
         <button type="button" class="btn btn-default modalClose" data-dismiss="modal">Close</button>
         <a target="_blank" href="https://github.com/Kurtainz/game-of-life"><button type="button" class="btn btn-primary modalGit">View On Github</button></a>
         <a target="_blank" href="http://gameoflife.kurtcorbett.co.uk"><button type="button" class="btn btn-primary modalVisit">Visit Site</button></a>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-<!-- Modal for project #5 -->
-<div id="project5Modal" class="modal fade" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Book Trading Club</h4>
-      </div>
-      <div class="modal-body">
-        <p>
-        	In order for me to continue learning and improving my skills, I decided to learn about PHP and MySQL. This lead to me creating a new project, the Book Trading Club. The majority of the front and back end for this app is written in PHP, with a few parts written in JavaScript. It features a full user registration and login service, and users can add books they own by using a search function which utilises the Google Books API. Users can view all books owned by other users and can request to trade books from other users. The app is supported with a MySQL database. 
-        </p>
-        <ul>
-        	<li>PHP</li>
-	        <li>JavaScript</li>
-	        <li>MySQL</li>
-	        <li>AJAX</li>
-	        <li>Responsive Design</li>
-        </ul>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default modalClose" data-dismiss="modal">Close</button>
-        <a target="_blank" href="https://github.com/Kurtainz/book-trading-club"><button type="button" class="btn btn-primary modalGit">View On Github</button></a>
-        <a target="_blank" href="http://bookclub.kurtcorbett.co.uk"><button type="button" class="btn btn-primary modalVisit">Visit Site</button></a>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->

@@ -141,6 +141,7 @@ section {
 	padding-bottom: 30px;
 	background-color: #141313;
 	color: #a2a2a2;
+	height: 100vh;
 }
 
 .aboutInner {
@@ -162,7 +163,7 @@ section {
 
 .portrait {
 	margin: 50px auto;
-	height: 350px;
+	height: 400px;
 	border: 20px solid #fff;
 	border-bottom: 65px solid #fff;
 }
@@ -230,10 +231,6 @@ section {
 	animation-delay: 0.8s;
 }
 
-.staggeredTech:nth-of-type(6) {
-	animation-delay: 1s;
-}
-
 .techBox {
 	margin-bottom: 40px;
 }
@@ -270,7 +267,7 @@ section {
 
 /*Implements animation display*/
 .staggeredProject:nth-of-type(2) {
-	animation-delay: 0.3s;
+	animation-delay: 1s;
 }
 
 .staggeredProject:nth-of-type(3) {
@@ -552,7 +549,6 @@ h4 {
 	.backgroundImage {
 	    background-attachment: fixed;
 	}
-
 	.navBorder:before {
 		display: block;
 		position: absolute;
@@ -572,7 +568,6 @@ h4 {
 	.navBorder:hover:before {
 		width: 100%;
 	}
-
 	.titleName {
 		font-size: 6em;
 	}
@@ -597,10 +592,6 @@ h4 {
 		text-align: center;
 		background-color: #000;
 		transition: 0.3s; 
-	}
-
-	.staggeredProject:nth-of-type(4), .staggeredProject:nth-of-type(5) {
-		margin-top: 30px;
 	}
 
 	.contactIcon.fa {
